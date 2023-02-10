@@ -9,15 +9,31 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@next/font": "13.1.2",
+    "@emotion/cache": "^11.10.5",
+    "@emotion/react": "^11.10.5",
+    "@emotion/server": "^11.10.0",
+    "@emotion/styled": "^11.10.5",
+    "@hookform/resolvers": "^2.9.11",
+    "@mui/icons-material": "^5.11.0",
+    "@mui/material": "^5.11.5",
+    "@next/font": "^13.1.2",
+    "@react-google-maps/api": "^2.18.1",
+    "@types/google-map-react": "^2.1.7",
     "@types/node": "18.11.18",
     "@types/react": "18.0.27",
     "@types/react-dom": "18.0.10",
     "eslint": "8.32.0",
     "eslint-config-next": "13.1.2",
+    "google-map-react": "^2.2.0",
     "next": "13.1.2",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "typescript": "4.9.4"
+    "react-hook-form": "^7.43.1",
+    "sharp": "^0.31.3",
+    "typescript": "4.9.4",
+    "yup": "^1.0.0"
+  },
+  "peerDependencies": {
+    "react": ">= 17.0.0"
   }
 }

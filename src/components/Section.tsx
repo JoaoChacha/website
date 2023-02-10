@@ -6,7 +6,7 @@ const Section = styled(Container)({})
 Section.defaultProps = {
   // @ts-ignore
   component: 'section',
-  sx: { marginY: '10rem' },
+  sx: { marginY: '6rem' },
 }
 
 export default Section
